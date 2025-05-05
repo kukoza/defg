@@ -11,8 +11,8 @@ async function resetAdminPassword() {
     // เชื่อมต่อกับฐานข้อมูล
     connection = await mysql.createConnection({
       host: process.env.DB_HOST || 'localhost',
-      user: process.env.DB_USER || 'root',
-      password: process.env.DB_PASSWORD || '',
+      user: process.env.DB_USER || 'db_username',
+      password: process.env.DB_PASSWORD || '812Rw7f&u',
       database: process.env.DB_NAME || 'carbookingsystem'
     });
     
